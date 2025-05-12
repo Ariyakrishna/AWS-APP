@@ -1,0 +1,387 @@
+/* Header */
+.text-white-size{
+    color: var(--white-color);
+    font-size: .875rem;
+}
+
+.text-white{
+    color: var(--white-color);
+}
+
+.bg-gradient {
+    background: var(--main-color);
+}
+
+a {
+    
+    text-decoration: none;
+    background-color: transparent;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.flex-basis-auto {
+    flex-basis: auto !important;
+}
+
+.navbar-brand{
+    right: 0px;
+    left: 43.5%;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-nav{
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    padding-right: .5rem;
+        padding-left: .5rem;
+}
+
+.primary-header {
+    border-top: 1px solid #eeeae6;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #eeeae6;
+    position: relative;
+    padding: .5rem 1rem;
+}
+
+
+/* Footer */
+
+/* General Footer Styling */
+.footer {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 3rem 1rem;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Footer Highlights */
+  .footer-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 4rem;
+  }
+  
+  .highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #495057;
+    transition: color 0.3s ease;
+  }
+  
+  .highlight-item:hover {
+    color: #28a745; /* Green color */
+  }
+  
+  .highlight-text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .support-time {
+    font-size: 0.75rem;
+    color: #6c757d;
+  }
+  
+  /* Footer Middle Section */
+  .footer-middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+  }
+  
+  /* Footer Description */
+  .footer-description {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .footer-description h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+  .footer-description p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.5;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    display: flex;
+    gap: 2rem;
+    flex: 2;
+  }
+  
+  .link-column {
+    flex: 1;
+  }
+  
+  .link-column h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #343a40;
+  }
+  
+  .link-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link-column li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    color: #495057;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .link-column li:hover {
+    color: #28a745;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #218838;
+  }
+  
+  .footer-copy {
+    font-size: 0.875rem;
+    color: #6c757d;
+    text-align: right;
+  }
+  
+  /* Footer Image */
+  .footer-image {
+    flex-grow: 1;
+    text-align: right; /* Align image to the right */
+  }
+  
+  .footer-img {
+    max-width: 250px; /* Adjust width for medium-small size */
+    height: auto; /* Keep aspect ratio intact */
+    object-fit: contain; /* Ensure the image fits without distortion */
+    border-radius: 8px; /* Optional: for rounded corners */
+    margin-left: 20px; /* Add space between text and image */
+  }
+  
+  /* Home */
+
+  .banner-text{
+    font-family: Perpetua;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .banner-button{
+    font-size: 1.25rem;
+    font-family: Proxima Nova;
+  }
+
+  #detail_1{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1.2rem !important;
+  }
+
+  #detail_1 h1{
+    font-size: 2rem;
+    font-family: Perpetua;
+  }
+
+#multipleTabs{
+  width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2.8rem !important;
+}
+.collectionTabs {
+  margin-bottom: 1.8rem !important;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.group-nav{
+  border: inherit;
+    border-style: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #070707 !important;
+    background-color: inherit;
+    border-bottom: 2px solid #070707 !important;
+    padding: 4px 0 !important;
+
+}
+.product-title{
+  font-size: 16px;
+}
+
+
+
+.product-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+ 
+  align-items: center;
+  overflow: hidden;
+}
+
+.product-swiper{
+  width: fit-content !important;
+}
+
+.btn-navigation{
+  border-color: #a65b3a !important;
+  color: #a65b3a !important;
+}
+
+.btn-navigation:hover{
+  border-color: #a65b3a !important;
+  color: #fff !important;
+  background-color: #a65b3a !important;
+}
+
+.custom-testimonial-title{
+  color: var(--main-color);
+  font-family: "Perpetua";
+    font-size: 1.9rem;
+    letter-spacing: 0;
+}
+
+.customer-review{
+  width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2.8rem !important;
+}
+
+.testimonialWrapper{
+  background-color: #fffcf8;
+  border: none;
+  border-bottom: 8px solid #c59e71;
+  min-height: 420px;
+  margin-bottom: 2rem;
+}
+
+/* .customer-review-slide{
+  width: 440px !important;
+} */
+
+.testimonial-name{
+  font-family: holidayfree;
+    font-size: 16px;
+    letter-spacing: .06em;
+    line-height: 24px;
+    color: #c59e71;
+    display: block;
+    text-align: right;
+    -webkit-margin-start: auto;
+    margin-inline-start: auto;
+}
+
+/* .testimonialWrapper {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+} */
+
+.testimonialWrapper::before {
+  content: "“";
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  font-size: 90px;
+  color: rgba(0, 0, 0, 0.1);
+  font-family: Georgia, serif;
+  z-index: 0;
+}
+
+.testimonialWrapper::after {
+  content: "”";
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 120px;
+  color: rgba(0, 0, 0, 0.1);
+  font-family: Georgia, serif;
+  z-index: 0;
+  /* margin-bottom: 2rem; */
+}
+
+.testimonialWrapper p {
+  position: relative;
+  z-index: 1;
+ 
+}
+
+.testimonial-text{
+  color: #212529;
+  word-spacing: 2px;
+  line-height: 25px;
+  margin-block-end: 1.5rem;
+  font-size: 1.1rem;
+}
+
+
+
